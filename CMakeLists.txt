@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   rosbag
 )
 
-find_package(Eigen3 REQUIRED)
+#find_package(Eigen3 REQUIRED)
 find_package(Boost COMPONENTS system thread filesystem chrono serialization date_time timer regex)
 find_package(GTSAM REQUIRED)
 find_package(yaml-cpp REQUIRED)
